@@ -107,3 +107,50 @@ Sau khi kết nối thành công đến target, bạn truy cập vào Disk Manag
 
 ![Screenshot (37)](https://user-images.githubusercontent.com/95524638/153214460-50a9d606-7b07-4bc5-9170-5759db2a069d.png)
 
+
+# 2
+# Triển khai Additional Domain Controller trên Windows Server
+trên ADC, bạn cài đặt Server Roles Active Directory Domain Service.
+
+![Screenshot (39)](https://user-images.githubusercontent.com/95524638/153218321-3b4bf8ff-6c74-41b4-a279-d1d20e88f4e0.png)
+Sau khi cài đặt xong, bạn tiến hành nâng cấp lên domain cho ADC.
+![Screenshot (40)](https://user-images.githubusercontent.com/95524638/153218801-53a4a764-6041-4cc3-83b0-52b617d73610.png)
+Trong mục Domain Controller Option, bạn giữ như mặc định
+![Screenshot (41)](https://user-images.githubusercontent.com/95524638/153218913-1f6cef2b-1664-4adb-b51e-b6e169fb6a66.png)
+Sau khi hoàn tất việc nâng cấp domain cho ADC, bạn có thể trỏ địa chỉ IP DNS server của ADC về chính nó.
+
+ +cài đặt DHCP Role trong Windows Server
+ Bước 1 - Chuyển đến Server Manager → Manage → Add Roles and Features.
+  + Từ Roles lists, hãy chọn DHCP Server role → nhấp vào Add Features trên cửa sổ hiện ra như được hiển thị trong các ảnh chụp màn hình sau đây.
+  
+![Screenshot (42)](https://user-images.githubusercontent.com/95524638/153224647-802beee5-b7f6-47f5-b0a3-462fcf9b2318.png)
+![Screenshot (43)](https://user-images.githubusercontent.com/95524638/153224682-16fa16d3-2c1d-47da-9ea7-40cf51ea70ce.png)
+
+
+Cấu hình sau triển khai
+Trong phần này, chúng ta sẽ xem cách thực hiện cấu hình sau triển khai của DHCP. Vui lòng làm theo các bước dưới đây.
+
+Bước 1 - Nhấp vào biểu tượng cảnh báo và sau đó nhấp vào "Complete DHCP Configuration".
+![Screenshot (44)](https://user-images.githubusercontent.com/95524638/153225205-13e9386c-9941-44b7-accf-46fb8e604772.png)
+Chọn một tài khoản domain user có quyền tạo đối tượng trong vùng chứa Net Services trong thư mục hoạt động hoặc tài khoản quản trị domain → bấm Next.
+ + triển khai DHCP
+ + Tìm màn hình Server Manager screen → Tools → DHCP.
+ + ![Screenshot (45)](https://user-images.githubusercontent.com/95524638/153226408-a06d502e-9fba-4310-a5d9-4ba57d1336e3.png)
+
+Nhấp chuột phải vào DHCP Server → sau đó nhấp vào “Add/Remove Bindings…”
+
+
+![Screenshot (46)](https://user-images.githubusercontent.com/95524638/153226600-59fa0e6b-e6e7-43e6-9958-e1fc21fde507.png)
+Đảm bảo địa chỉ IP tĩnh của máy chủ sẽ xuất hiện như được hiển thị trong ảnh chụp màn hình sau.
+
+![Screenshot (47)](https://user-images.githubusercontent.com/95524638/153226704-661bad17-ffd4-4e70-895a-63504454899b.png)
+
+Nhấp chuột phải vào IPv4 → Chọn “New Scope”
+Nhập địa chỉ IP Start và End, Subnet mask, để Length mặc định “24” cho mạng con lớp C → bấm Next.
+![Screenshot (48)](https://user-images.githubusercontent.com/95524638/153227392-bcae8ac9-9b7f-4a7e-8dce-2361040148c9.png)
+Chọn tùy chọn “Yes, I want to activate this scope now" để kích hoạt phạm vi ngay lập tức → chọn Next.
+![Screenshot (50)](https://user-images.githubusercontent.com/95524638/153227570-82fe9723-9747-40c4-b4df-8a3e17bb4245.png)
+
+ + Join domain
+ + ![Screenshot (52)](https://user-images.githubusercontent.com/95524638/153227930-695ecff8-ced9-4461-b3b1-a503259d1523.png)
+![Screenshot (53)](https://user-images.githubusercontent.com/95524638/153228207-1fea2a2e-6239-4abd-8c78-ceac27c0109c.png)
