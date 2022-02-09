@@ -39,6 +39,7 @@
 ![Screenshot (15)](https://user-images.githubusercontent.com/95524638/153206293-6c7d8f21-d044-4a38-971f-e3d6170ae1a3.png)
 ![Screenshot (16)](https://user-images.githubusercontent.com/95524638/153206321-181fcaa9-1ff8-4120-a073-314262614421.png)
 
+ + Câu 1.2
 *  Cài đặt iSCSI Target Server:
 *  Để triển khai dịch vụ, chúng ta tiến hành cài đặt Server roles iSCSI Target Server. Tại Server Roles mở rộng File and Storage Services -> File and iSCSI  Services và chọn iSCSI Target Server.
 
