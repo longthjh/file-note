@@ -153,4 +153,7 @@ Chọn tùy chọn “Yes, I want to activate this scope now" để kích hoạt
 
  + 2.2 Join domain vào máy clien
  + ![Screenshot (52)](https://user-images.githubusercontent.com/95524638/153227930-695ecff8-ced9-4461-b3b1-a503259d1523.png)
+* test clien device
 ![Screenshot (53)](https://user-images.githubusercontent.com/95524638/153228207-1fea2a2e-6239-4abd-8c78-ceac27c0109c.png)
+
+# Câu 4
