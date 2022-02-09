@@ -151,6 +151,6 @@ Nhập địa chỉ IP Start và End, Subnet mask, để Length mặc định �
 Chọn tùy chọn “Yes, I want to activate this scope now" để kích hoạt phạm vi ngay lập tức → chọn Next.
 ![Screenshot (50)](https://user-images.githubusercontent.com/95524638/153227570-82fe9723-9747-40c4-b4df-8a3e17bb4245.png)
 
- + Join domain
+ + 2.2 Join domain vào máy clien
  + ![Screenshot (52)](https://user-images.githubusercontent.com/95524638/153227930-695ecff8-ced9-4461-b3b1-a503259d1523.png)
 ![Screenshot (53)](https://user-images.githubusercontent.com/95524638/153228207-1fea2a2e-6239-4abd-8c78-ceac27c0109c.png)
