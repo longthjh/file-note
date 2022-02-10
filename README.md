@@ -158,4 +158,66 @@ Chọn tùy chọn “Yes, I want to activate this scope now" để kích hoạt
 # 3.1test clien device
 ![Screenshot (53)](https://user-images.githubusercontent.com/95524638/153228207-1fea2a2e-6239-4abd-8c78-ceac27c0109c.png)
 
-# Câu 4
+
+# Câu 4.1
+
+![Screenshot (68)](https://user-images.githubusercontent.com/95524638/153429192-b83a2fe9-c753-43f5-988c-fa75d1af2840.png)
+
+
+# Câu 4.2
+ + Cài đặt Hyper-V
+  + Chạy Server Manager và nhấp vào Add roles and features.
+
+
+
+![Screenshot (61)](https://user-images.githubusercontent.com/95524638/153417950-8d3cc65c-75a3-4821-9239-f98cf1f88a1f.png)
+
+
+![Screenshot (62)](https://user-images.githubusercontent.com/95524638/153417975-43450d29-1a0f-4c5b-8680-7ef183add1e7.png)
+
++ Sau khi cài đặt xong feature Failover Clustering, chúng ta sẽ cấu hình như sau:
+
+ 
+![Screenshot (63)](https://user-images.githubusercontent.com/95524638/153418709-9e34c27b-ec19-4f79-a1d0-16fb2a052a56.png)
++ Để tiến hành quản lý, và cấu hình bạn sẽ cần truy cập vào Failover Cluster Manager:
++ 
+
+  
+![Screenshot (54)](https://user-images.githubusercontent.com/95524638/153410612-fd249434-254b-4cfa-b7f9-ee215aa04767.png)
+
+
+Tiếp theo, trong giao diện Failover Cluster Manager, bạn tiến hành Validate Configuration… cho các node sẽ được add vào cluster.
+
+![Screenshot (65)](https://user-images.githubusercontent.com/95524638/153420629-0e90493c-8e29-49c8-8a2f-f04a2ba288a4.png)
+Ờ mạn hình giới thiệu của Validate Configuration wizard, bạn chọn Next:
+![image](https://user-images.githubusercontent.com/95524638/153420749-9bf76691-a883-4d07-9982-2a386d5b6039.png)
+Tiếp theo, bạn chọn các node đã được cài feature Failover Clustering
+
+
+
+
+
+ + Tạo máy ảo
+  + Chạy Server Manager và mở Tools > Hyper-V Manager.
+  ![Screenshot (55)](https://user-images.githubusercontent.com/95524638/153412668-66497ab7-b673-4546-a3df-b8937dff0f17.png)
+  Chọn Hostname ở bên trái và nhấp chuột phải vào nó để mở menu, sau đó chọn New > Virtual Machine.
+  
+![Screenshot (56)](https://user-images.githubusercontent.com/95524638/153412794-4eb0cd66-8515-4447-87fd-ccecd54b2d9e.png)
++ Chọn file iso để tiến hành khởi động
+![Screenshot (58)](https://user-images.githubusercontent.com/95524638/153413312-2315bf55-65ee-471a-8e7f-7377391c7b56.png)
+
+
+![Screenshot (59)](https://user-images.githubusercontent.com/95524638/153413430-3b649e98-1fd1-4560-b76a-3e85c4270e1d.png)
+
+
+
+![Screenshot (60)](https://user-images.githubusercontent.com/95524638/153415695-e91b6c88-c7ea-4986-98b3-bcec4dab7139.png)
+
+
+
+![Screenshot (67)](https://user-images.githubusercontent.com/95524638/153421918-a8258eea-f4fb-4791-a180-c5f59e7abdef.png)
+
+4.3
+
+
+
