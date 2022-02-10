@@ -218,6 +218,7 @@ Tiếp theo, bạn chọn các node đã được cài feature Failover Clusteri
 ![Screenshot (67)](https://user-images.githubusercontent.com/95524638/153421918-a8258eea-f4fb-4791-a180-c5f59e7abdef.png)
 
 4.3
+![Screenshot (69)](https://user-images.githubusercontent.com/95524638/153433122-25fc71be-59d0-4fc0-9e2f-9ab217adfba5.png)
 
 
 
